@@ -1,0 +1,61 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    background: #f8f8f8;
+    display: grid;
+    place-items: center;
+    
+}
+
+.input{
+    background-color: rgb(230, 240, 255);
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+
+input,input:focus{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+main{
+    min-width: 100vw;
+}
+h1{
+    text-align: center;
+    font-weight: 300;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    margin: auto;
+    max-width: 70%;
+    padding: 20px;
+}
+
+.card{
+    font-weight: 400;
+    text-align: center;
+    border-radius: 35px;
+    background-color: rgb(255, 251, 232);
+    margin: auto;
+    width: 250px;
+    border: black 1px solid;
+    height: 300px;
+    padding: 40px 20px;
+}
+
